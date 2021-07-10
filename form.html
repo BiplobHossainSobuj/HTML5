@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+                <li><a href="">about us</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <h1>form making</h1>
+    <form action="">
+        <p>name: <input type="text" name="name" placeholder="Enter your name"></p>
+        <p>email: <input type="text" name="email" placeholder="Enter your mail"></p>
+        <fieldset>
+            <legend>Select  a option</legend>
+            <p>
+                <label for="student">
+                    <input type="radio" name="people" id="student">student
+                </label>
+            </p>
+            <p>
+                <label for="teacher">
+                    <input type="radio" name="people" id="teacher">teacher
+                </label>
+            </p>
+            <p>
+                <label for="principal">
+                    <input type="radio" name="people" id="principal">principal
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <p><label for="cse"><input type="checkbox" name="department" id="cse"></label>cse</p>
+            <p><label for="eee"><input type="checkbox" name="department" id="eee"></label>eee</p>
+            <p><label for="bba"><input type="checkbox" name="department" id="bba"></label>bba</p>
+        </fieldset>
+        <p>
+            special instruction
+            <br>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
